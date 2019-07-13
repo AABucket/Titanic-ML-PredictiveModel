@@ -31,3 +31,11 @@ Looking at the histograms we can see that:
  * More female passengers survived than male
  * Lower survival rate for male passengers between the age of 15-30 
  * Higher survival rate for female passengers between the ages of 15-40
+
+
+## Analysis on Survived/Pclass/Gender/Embarked:
+
+The second analysis that I carried out on the dataset was using the **Survived/Pclass/Gender/Embarked** variables. This is comparing how the class of the ticket to the survival rate of both female and male. Whilst also showing this from the three different ports that the Titanic stopped at. 
+
+![Faceit](Pclass.png)
+
