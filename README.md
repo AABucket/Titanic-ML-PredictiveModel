@@ -23,5 +23,5 @@ They both show Survival rate with the **Age** on the x-Axis.
 
 #### This graph shows the first analysis on Gender/Age:
 
-![Histogram](Gender:Age.png)
+![Histogram](Gender:Age.png.png)
 
