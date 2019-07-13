@@ -11,6 +11,6 @@ I have added the Data Analyses python file. This file runs some analysis and dra
 # Data Analysis
 To start off I had to look at the actual training dataset to get a feel of what type of data I would be working with.
 
-This shows the First 5 Rows of the Dataset:
+## This shows the First 5 Rows of the Dataset:
 
 ![alt-text](Train_Head.png)
