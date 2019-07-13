@@ -27,3 +27,7 @@ They both show Survival rate with the **Age** on the x-Axis.
 
 ![Histogram](Histogram.png)
 
+Looking at the histograms we can see that:
+ * More female passengers survived than male
+ * Lower survival rate for male passengers between the age of 15-30 
+ * Higher survival rate for female passengers between the ages of 15-40
