@@ -16,12 +16,14 @@ To start off I had to look at the actual training dataset to get a feel of what 
 ![alt-text](Train_Head.png)
 
 
+
+
+## Analysis on Gender/Age:
+
 To start off analysing this dataset I needed to decide what variables I would like to look at first. 
 The __First__ set of varibales I looked at were: Age and Sex
 I used the data to create two histograms, one for **Male** and one for **Female**.
 They both show Survival rate with the **Age** on the x-Axis.
-
-## This graph shows the first analysis on Gender/Age:
 
 ![Histogram](Histogram.png)
 
