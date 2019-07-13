@@ -6,3 +6,7 @@ The link to the kaggle competition: https://www.kaggle.com/c/titanic/overview
 
 # Starting the Predictive Model
 I have added the Data Analyses python file. This file runs some analysis and draws graphs to show which columns should be used for the predictive models.
+
+
+# Data Analysis
+To start off I had to look at the actual training dataset to get a feel of what type of data I would be working with.
