@@ -10,4 +10,4 @@ I have added the Data Analyses python file. This file runs some analysis and dra
 
 # Data Analysis
 To start off I had to look at the actual training dataset to get a feel of what type of data I would be working with.
-Train_Head.png
+![alt-text](Train_Head.png)
