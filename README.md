@@ -25,7 +25,7 @@ The __First__ set of varibales I looked at were Age and Sex
 I used the data to create two histograms, one for **Male** and one for **Female**.
 They both show Survival rate with the **Age** on the x-Axis.
 
-![Histogram](Histogram.png)
+![Histogram](Histogram.png )
 
 Looking at the histograms we can see that:
  * More female passengers survived than male
@@ -37,5 +37,5 @@ Looking at the histograms we can see that:
 
 The second analysis that I carried out on the dataset was using the **Survived/Pclass/Gender/Embarked** variables. This is comparing how the class of the ticket to the survival rate of both female and male. Whilst also showing this from the three different ports that the Titanic stopped at. 
 
-![Faceit](Pclass.png)
+<img src="Pclass.png" width="420" height="720">
 
