@@ -21,7 +21,7 @@ The __First__ set of varibales I looked at were: Age and Sex
 I used the data to create two histograms, one for **Male** and one for **Female**.
 They both show Survival rate with the **Age** on the x-Axis.
 
-#### This graph shows the first analysis on Gender/Age
+#### This graph shows the first analysis on Gender/Age:
 
-![alt-text](Gender:Age.png)
+![alt text](Gender:Age.png)
 
