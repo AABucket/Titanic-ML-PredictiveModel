@@ -101,3 +101,5 @@ I have change the "C", "S", "Q" from the **Embarked** column to 0, 1, 2.
 ## Numeric Dataset
 
 The dataset now is fully numeric and has no null values: 
+
+<img src="img/Numeric_Data.png" width="540" height="270">
