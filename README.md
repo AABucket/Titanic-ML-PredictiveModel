@@ -50,7 +50,9 @@ The second analysis that I carried out on the dataset was using the **Survived/P
  </ul>
  </p>
 <div>
- 
+
+
+
 #### Second Graph:
 
 <img align='left' src="img/Survived.png" width="450" height="250" hspace="20"/>
