@@ -21,6 +21,13 @@ missing_data = pd.concat([total, percent_2], axis=1, keys=['Total', '%'])
 #Dropping passenger ID and Cabin from the dataset
 train_df = train_df.drop(['PassengerId'], axis = 1)
 train_df = train_df.drop(['Cabin'],axis = 1)
+train_df = train_df.drop(["Ticket"], axis = 1)
+train_df = train_df.drop(["Name"], axis = 1)
+test_df = test_df.drop(['PassengerId'], axis = 1)
+test_df = test_df.drop(['Cabin'],axis = 1)
+test_df = test_df.drop(["Ticket"], axis = 1)
+test_df = test_df.drop(["Name"], axis = 1)
+
 
 #Dealing with the Null values 
 df = [train_df, test_df]
@@ -47,3 +54,16 @@ common_value = 'S'
 for data in df:
     data['Embarked'] = data['Embarked'].fillna(common_value)
     
+#Changing Male and Female to 1 and 0
+
+values = {"male" : 1, "female" : 0}
+
+for data in df:
+    data['Sex'] = data['Sex'].map(values)
+
+#Changing the Embarked C S Q to 0 1 2
+
+values = {"C" : 0, "S" : 1, "Q" : 2}
+
+for data in df:
+    data["Embarked"] = data["Embarked"].map(values)
