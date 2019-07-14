@@ -1,14 +1,14 @@
 # Titanic-ML-PredictiveModel
 This repository will store my project which predicts the death of people on the Titanic using the Titanic Dataset from Kaggle.
 
-# Kaggle
+## Kaggle
 The link to the kaggle competition: https://www.kaggle.com/c/titanic/overview
 
-# Starting the Predictive Model
+## Starting the Predictive Model
 I have added the Data Analyses python file. This file runs some analysis and draws graphs to show which columns should be used for the predictive models.
 
 
-# Data Analysis
+## Data Analysis
 To start off I had to look at the actual training dataset to get a feel of what type of data I would be working with.
 
 #### This shows the First 5 Rows of the Dataset:
@@ -18,7 +18,7 @@ To start off I had to look at the actual training dataset to get a feel of what 
 
 
 
-## Analysis on Gender/Age:
+### Analysis on Gender/Age:
 
 To start off analysing this dataset I needed to decide what variables I would like to look at first. 
 The __First__ set of varibales I looked at were Age and Sex
@@ -33,7 +33,7 @@ Looking at the histograms we can see that:
  * Higher survival rate for female passengers between the ages of 15-40
 
 
-## Analysis on Survived/Pclass/Gender/Embarked:
+### Analysis on Survived/Pclass/Gender/Embarked:
 
 The second analysis that I carried out on the dataset was using the **Survived/Pclass/Gender/Embarked** variables. This is comparing how the class of the ticket to the survival rate of both female and male. Whilst also showing this from the three different ports that the Titanic stopped at. 
 
