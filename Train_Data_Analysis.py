@@ -14,7 +14,7 @@ sur = "Survived"
 not_sur = "Not Survived"
 new_df = df.head(5)
 
-"""#Creating a plot to see the different sex and age of the survivors compared to non survivors
+#Creating a plot to see the different sex and age of the survivors compared to non survivors
 fig, axes = plt.subplots(nrows=1, ncols=2,figsize=(10,4))
 men = df[df["Sex"]== "male"]
 female = df[df["Sex"] == "female"]
@@ -39,7 +39,7 @@ ax.set_title("Female")
 #Comparing different ticket classes to survival by where they embarked their journey 
 FacetGrid = sns.FacetGrid(df, row='Embarked', size=3, aspect=1.6)
 FacetGrid.map(sns.pointplot, 'Pclass', 'Survived', 'Sex', palette=None,  order=None, hue_order=None )
-FacetGrid.add_legend()"""
+FacetGrid.add_legend()
 
 #PClass in comparison to Survival
 #sns.barplot(x='Pclass', y='Survived', data=df)
