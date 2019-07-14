@@ -37,7 +37,7 @@ Looking at the histograms we can see that:
 
 The second analysis that I carried out on the dataset was using the **Survived/Pclass/Gender/Embarked** variables. This is comparing how the class of the ticket to the survival rate of both female and male. Whilst also showing this from the three different ports that the Titanic stopped at. 
 
-<img src="Pclass.png" width="210" height="360">
+<img src="Pclass.png" width="310" height="510">
 
 Looking at the graphs above we can see that:
  * Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher probability to survive
