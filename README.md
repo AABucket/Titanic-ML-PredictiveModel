@@ -39,11 +39,15 @@ The second analysis that I carried out on the dataset was using the **Survived/P
 
 <div class="col-md-6" img> 
  <img align='left' src="img/Pclass.png" width="310" height="510" hspace="20"/>   
- <img align='left' src="img/Survived.png" width="450" height="250" hspace="20"/>
 <div>
 <div class="col-md-6" text>
- Looking at the graphs above we can see that:
-  * Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher probability to survive
-  * Overall the first class ticket holders had a higher chance of survival compared to the other classes 
+ <p>
+  <ul> Looking at the graphs above we can see that:
+   <li> Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher probability to survive
+   <li> Overall the first class ticket holders had a higher chance of survival compared to the other classes 
+ </ul>
+ </p>
 <div>
+ 
+<img align='left' src="img/Survived.png" width="450" height="250" hspace="20"/>
  
