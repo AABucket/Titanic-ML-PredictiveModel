@@ -40,7 +40,7 @@ The second analysis that I carried out on the dataset was using the **Survived/P
 <p float="left">
   <img align='left' src="img/Pclass.png" width="310" height="510">   
   <img align='left' src="img/Survived.png" width="450" height="250">
-<p>
+</p>
 
 Looking at the graphs above we can see that:
  * Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher probability to survive
