@@ -40,6 +40,8 @@ for data in df:
 train_df["Age"].isnull().sum()
 
 #Filling in NaN values in embarked with most common port as it is only 2 values
+desc = train_df["Embarked"].describe()
+
 common_value = 'S'
 
 for data in df:
