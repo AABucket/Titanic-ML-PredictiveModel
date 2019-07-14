@@ -38,8 +38,8 @@ Looking at the histograms we can see that:
 The second analysis that I carried out on the dataset was using the **Survived/Pclass/Gender/Embarked** variables. This is comparing how the class of the ticket to the survival rate of both female and male. Whilst also showing this from the three different ports that the Titanic stopped at. 
 
 <p float="left">
-  <img src="img/Pclass.png" width="310" height="510">   
-  <img src="img/Survived.png" width="450" height="250">
+  <img align='left' src="img/Pclass.png" width="310" height="510">   
+  <img align='left' src="img/Survived.png" width="450" height="250">
 <p>
 
 Looking at the graphs above we can see that:
