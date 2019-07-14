@@ -29,6 +29,7 @@ test_df = test_df.drop(["Ticket"], axis = 1)
 test_df = test_df.drop(["Name"], axis = 1)
 
 
+
 #Dealing with the Null values 
 df = [train_df, test_df]
 
@@ -67,3 +68,8 @@ values = {"C" : 0, "S" : 1, "Q" : 2}
 
 for data in df:
     data["Embarked"] = data["Embarked"].map(values)
+
+test_df = test_df.drop(test_df.index[152])
+
+test_df.to_csv("num_test.csv")
+
