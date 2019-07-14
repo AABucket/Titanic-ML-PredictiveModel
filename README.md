@@ -80,7 +80,7 @@ My first course of action was to find how many null/NaN values there were in thi
 
 <img src="img/Missing_value.png" width="300" height="375">
 
-Looking above at the dataframe we can see that **Cabin** had the most null values with 687 which is 77.1% of the total data for that column. **Age** also has a significant value of nulls with 177 which is 19.9% of the total data for that column. The **Cabin** column has nearly 80% of the values missing and the **PassengerId** column will not affect the outcome of the predictions so I decided to exclude both of the columns from my training data.
+Looking above at the dataframe we can see that **Cabin** had the most null values with 687 which is 77.1% of the total data for that column. **Age** also has a significant value of nulls with 177 which is 19.9% of the total data for that column. The **Cabin** column has nearly 80% of the values missing and the **PassengerId** column will not affect the outcome of the predictions. The **Name** column will not add too much of a significant value to the model as well as the **Ticket** column as it has too many unique values which will skew the accuracy of the predictive model. Therefore I have decided to exclude all 4 of these column from the training and testing data.
 
 #### Age
 
@@ -88,4 +88,16 @@ To deal with the **Age** column which has 177 values missing I decided to calcul
 
 #### Embarked
 
-As there are only 2 values for the **Embarked** column it is best to fill those two values in with the most common port that people embarked on. That port is port "S" which was found through the .describe() function. 
+As there are only 2 values for the **Embarked** column it is best to fill those two values in with the most common port that people embarked on. That port is port "S" which was found through the .describe() function.
+
+#### Sex
+
+The **Age** column has string varibales which are "male" and "female", I have chosen to convert them to 1 and 0 as it will be easier for the models to understand integers.
+
+#### Embarked
+
+I have change the "C", "S", "Q" from the **Embarked** column to 0, 1, 2. 
+
+## Numeric Dataset
+
+The dataset now is fully numeric and has no null values: 
