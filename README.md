@@ -41,11 +41,11 @@ The second analysis that I carried out on the dataset was using the **Survived/P
 
 <table>
  <div class="col-md-6" img> 
-  <img align='left' src="img/Pclass.png" width="310" height="510"/>   
+  <img align='left' src="img/Pclass.png" width="310" height="510" hspace="20"/>   
  <div>
  <div class="col-md-6" text>
   <tr>
-   <ul> **Looking at the graphs above we can see that**:
+   <ul> Looking at the graphs above we can see that:
     <li> Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher            probability to survive
     <li> Overall the first class ticket holders had a higher chance of survival compared to the other classes 
   </ul>
@@ -53,8 +53,18 @@ The second analysis that I carried out on the dataset was using the **Survived/P
  </div>
 </table>
 
-<h4 class='title'>Second Graph:</h4>
+#### Second Graph:
+<table>
  <div calss='col=md-6'> 
-  <img align='left' src="img/Survived.png" width="450" height="250"/>
+  <img align='left' src="img/Survived.png" width="450" height="250" hspace="20"/>
+ <div>
+ <div class="col-md-6" text>
+  <tr>
+   <ul> Looking at the graph above:
+    <li> The most of the passengers that didnt survive came from the 3rd class
+    <li> Out of the passengers that survived most were the 1st class and the second most was the 3rd class
+   </li>
+  </tr>
  </div>
+</table>
  
