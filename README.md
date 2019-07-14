@@ -68,3 +68,24 @@ The second analysis that I carried out on the dataset was using the **Survived/P
  </div>
 </table>
  
+ 
+ 
+## Data Preprocessing
+
+One of the main things I had to consider was data preprocessing. The raw data provided for this project was no where near ready to be put into a ML model and used to predict anything just yet. 
+
+### Null Values
+
+My first course of action was to find how many null/NaN values there were in this dataset, I made a new dataframe which had all the null values for the training data for each column:
+
+<img src="img/Missing_value.png" width="300" height="375">
+
+Looking above at the dataframe we can see that **Cabin** had the most null values with 687 which is 77.1% of the total data for that column. **Age** also has a significant value of nulls with 177 which is 19.9% of the total data for that column. The **Cabin** column has nearly 80% of the values missing and the **PassengerId** column will not affect the outcome of the predictions so I decided to exclude both of the columns from my training data.
+
+#### Age
+
+To deal with the **Age** column which has 177 values missing I decided to calculate the mean and the standard deviation of the age column and then generate random numbers which are focused around those results to fill in the null values. This is done through a simple for loop which uses both the training and test data to fill in the blanks with the numpy library randint function. 
+
+#### Embarked
+
+As there are only 2 values for the **Embarked** column it is best to fill those two values in with the most common port that people embarked on. That port is port "S" which was found through the .describe() function. 
