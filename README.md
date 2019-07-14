@@ -41,7 +41,7 @@ The second analysis that I carried out on the dataset was using the **Survived/P
   <img src="img/Pclass.png" width="310" height="510">   
 <div>
 <div class="col-md-6">
-  <img src="img/Survived.png" width="450" height="250">
+  <img src="img/Survived.png" width="350" height="150">
 <div>
 
 Looking at the graphs above we can see that:
