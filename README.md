@@ -41,3 +41,6 @@ The second analysis that I carried out on the dataset was using the **Survived/P
 
 Looking at the graphs above we can see that:
  * Females that embarked at ports S and Q had a higher probabilty to survive compare to port C where men had a higher probability to survive
+ * Overall the first class ticket holders had a higher chance of survival compared to the other classes 
+ 
+ 
